@@ -1,0 +1,89 @@
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#calculator {
+  padding: 20px 0 20px 20px;
+}
+
+#calculator:after {
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section {
+  background: #EEE;
+  border: 1px solid #CCC;
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 20px;
+  width: 350px;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.section h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.slider-group {
+  background: #CCC;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+  padding: 15px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.slider-group h3 {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.slider-group .default {
+  float: right;
+}
+
+.slider-group .slider {
+  clear: both;
+}
+
+.slider-group .footnote {
+  margin-top: 15px;
+  font-size: 9px;
+}
+
+.total {
+  clear: both;
+}
+
+.total:after {
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.total h3 {
+  float: left;
+}
+
+.total .default {
+  float: right;
+}
